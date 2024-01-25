@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Playfair+Display:wght@500&family=Rubik&family=Source+Serif+4:opsz@8..60&display=swap');
+
+:root{
+    --cor-primaria: #092635;
+    --cor-secundaria: #1B4242;
+    --cor-terciaria: #5C8374;
+    --cor-quartenaria: #9EC8B9;
+
+    --fonte-karla: 'Karla', sans-serif;
+    --fonte-playfair: 'Playfair Display', serif;
+    --font-rubik: 'Rubik', sans-serif;
+    --font-source: 'Source Serif 4', serif;
+
+    --tamanho-paragrafo: 1.5rem;
+    --tamanho-titulo:2.5rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: var(--tamanho-titulo);
+    font-family: var(--fonte-playfair);
+}
+p{
+    font-size: var(--tamanho-paragrafo);
+    font-family: var(--font-rubik);
+}
+h6{
+    font-size: var(--tamanho-paragrafo);
+    font-family: var(--font-rubik);
+}
+a{
+    font-size: var(--tamanho-paragrafo);
+    font-family: var(--fonte-karla);
+}
+button{
+    font-size: var(--tamanho-paragrafo);
+    font-family: var(--fonte-karla);
+}
